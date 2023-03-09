@@ -44,4 +44,6 @@ sections:
       https://res.cloudinary.com/drw/image/upload/c_fill,g_face,q_auto,f_auto,w_350,h_350/v1638387596/comm-drw/uploads/pexels-jess-loiterton-4601063_w72cvy.jpg
     isDark: true
     useSecondaryCta: false
+    imageUrlText: >-
+      https://res.cloudinary.com/rangle/image/upload/v1678312785/design_systems_product_market_fit_feature.png
 ---
