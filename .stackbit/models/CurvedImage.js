@@ -7,21 +7,20 @@ module.exports = {
       type: 'markdown',
       name: 'body'
     },
-    { type: 'string', name: 'ctaText' },
-    { type: 'string', name: 'ctaUrl' },
-    { type: 'string', name: 'imageUrl' },
-    { type: 'image', name: 'imageUrlText' },
-    { type: 'string', name: 'imageAlt' },
+    { type: 'string', name: 'text' },
+    { type: 'string', name: 'url' },
+    { type: 'image', name: 'image_url' },
+    { type: 'string', name: 'image_alt' },
     {
       type: 'boolean',
-      name: 'imageOnRight',
+      name: 'image_on_right',
       label: 'Display image on right',
       default: false
     },
-    { type: 'boolean', name: 'isDark', label: 'Dark mode', default: false },
+    { type: 'boolean', name: 'is_dark', label: 'Dark mode', default: false },
     {
       type: 'boolean',
-      name: 'useSecondaryCta',
+      name: 'cta_secondary',
       label: 'Use secondary CTA',
       default: false
     }

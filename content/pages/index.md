@@ -18,8 +18,8 @@ sections:
     body: >-
       Our counterparties benefit from our 30+ years of experience across a
       variety of asset classes.
-    imageOnRight: true
-    isDark: false
+    image_on_right: true
+    is_dark: false
     headingIsSerif: false
   - type: CurvedImage
     body: >
@@ -34,16 +34,16 @@ sections:
       This reflects our long-standing commitment to solve emerging global issues
       and create opportunities in the communities where we live and work. We
       seek opportunities to use our resources to drive positive change.
-    ctaText: Learn about CSR at DRW
-    ctaUrl: /work-at-drw/who-we-are/social-responsibility/
+    text: Learn about CSR at DRW
+    url: /work-at-drw/who-we-are/social-responsibility/
     heading: Powerful solution to global challenges
     id: '1'
-    imageAlt: Ocean meets the shore
-    imageOnRight: false
-    imageUrl: >-
+    image_alt: Ocean meets the shore
+    image_on_right: false
+    image_url: >-
       https://res.cloudinary.com/drw/image/upload/c_fill,g_face,q_auto,f_auto,w_350,h_350/v1638387596/comm-drw/uploads/pexels-jess-loiterton-4601063_w72cvy.jpg
-    isDark: true
-    useSecondaryCta: false
+    is_dark: true
+    cta_secondary: false
     imageUrlText: >-
       https://res.cloudinary.com/rangle/image/upload/v1678312785/design_systems_product_market_fit_feature.png
 ---

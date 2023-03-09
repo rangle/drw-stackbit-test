@@ -42,7 +42,7 @@ export const Cta = ({
         hover:no-underline 
       `}
         >
-          <span data-sb-field-path='.ctaText'>{text}</span>
+          <span data-sb-field-path='.text'>{text}</span>
           <span>
             {isExternal ? (
               <svg
@@ -75,7 +75,7 @@ export const Cta = ({
           duration-200
         '
         >
-          <span data-sb-field-path='.ctaText'>{text}</span>
+          <span data-sb-field-path='.text'>{text}</span>
         </a>
       )}
     </Link>

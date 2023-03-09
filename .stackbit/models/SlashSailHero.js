@@ -6,16 +6,16 @@ module.exports = {
       type: 'string',
       name: 'heading',
       default: 'heading',
-      required: true,
+      required: true
     },
     {
       type: 'string',
       name: 'body',
       default: 'body',
-      required: true,
+      required: true
     },
-    { type: 'boolean', name: 'imageOnRight', default: false },
-    { type: 'boolean', name: 'isDark', default: false },
-    { type: 'boolean', name: 'headingIsSerif', default: false },
-  ],
-};
+    { type: 'boolean', name: 'image_on_right', default: false },
+    { type: 'boolean', name: 'is_dark', default: false },
+    { type: 'boolean', name: 'headingIsSerif', default: false }
+  ]
+}
