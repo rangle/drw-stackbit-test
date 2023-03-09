@@ -10,6 +10,7 @@ module.exports = {
     { type: 'string', name: 'ctaText' },
     { type: 'string', name: 'ctaUrl' },
     { type: 'string', name: 'imageUrl' },
+    { type: 'image', name: 'imageUrlText' },
     { type: 'string', name: 'imageAlt' },
     {
       type: 'boolean',
