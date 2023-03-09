@@ -1,0 +1,1 @@
+export { CurvedImage } from './CurvedImage'

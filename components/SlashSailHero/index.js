@@ -1,0 +1,1 @@
+export { SlashSailHero } from './SlashSailHero';

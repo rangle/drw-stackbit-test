@@ -1,10 +1,10 @@
-import Button from './.stackbit/models/Button';
-import Card from './.stackbit/models/Card';
-import Page from './.stackbit/models/Page';
-import CardGridSection from './.stackbit/models/CardGridSection';
-import FooterConfig from './.stackbit/models/FooterConfig';
-import HeroSection from './.stackbit/models/HeroSection';
-import SiteConfig from './.stackbit/models/SiteConfig';
+import Page from './.stackbit/models/Page'
+import FooterConfig from './.stackbit/models/FooterConfig'
+import MainHero from './.stackbit/models/MainHero'
+import Quote from './.stackbit/models/Quote'
+import CurvedImage from './.stackbit/models/CurvedImage'
+import SlashSailHero from './.stackbit/models/SlashSailHero'
+import SiteConfig from './.stackbit/models/SiteConfig'
 
 const sbConfig = {
   stackbitVersion: '~0.5.0',
@@ -18,17 +18,17 @@ const sbConfig = {
     referenceType: 'static',
     staticDir: 'public',
     uploadDir: 'images',
-    publicPath: '/',
+    publicPath: '/'
   },
   models: {
     Page,
-    Button,
-    Card,
-    CardGridSection,
     FooterConfig,
-    HeroSection,
-    SiteConfig,
-  },
-};
+    MainHero,
+    Quote,
+    SlashSailHero,
+    CurvedImage,
+    SiteConfig
+  }
+}
 
-export default sbConfig;
+export default sbConfig
