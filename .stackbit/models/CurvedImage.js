@@ -9,18 +9,18 @@ module.exports = {
     },
     { type: 'string', name: 'text' },
     { type: 'string', name: 'url' },
-    { type: 'image', name: 'image_url' },
-    { type: 'string', name: 'image_alt' },
+    { type: 'image', name: 'imageUrl' },
+    { type: 'string', name: 'imageAlt' },
     {
       type: 'boolean',
       name: 'image_on_right',
       label: 'Display image on right',
       default: false
     },
-    { type: 'boolean', name: 'is_dark', label: 'Dark mode', default: false },
+    { type: 'boolean', name: 'isDark', label: 'Dark mode', default: false },
     {
       type: 'boolean',
-      name: 'cta_secondary',
+      name: 'ctaSecondary',
       label: 'Use secondary CTA',
       default: false
     }
