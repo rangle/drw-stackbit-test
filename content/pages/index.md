@@ -41,4 +41,6 @@ sections:
     image_on_right: false
     isDark: true
     ctaSecondary: false
+    imageUrl: >-
+      https://res.cloudinary.com/rangle/image/upload/v1676063830/cld-sample-5.jpg
 ---
