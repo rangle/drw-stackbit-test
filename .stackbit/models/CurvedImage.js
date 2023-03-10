@@ -1,14 +1,15 @@
 module.exports = {
   labelField: 'body',
   groups: ['SectionComponents'],
+  fieldGroups: [{ name: 'cta', label: 'CTA', icon: 'gear' }],
   fields: [
     { type: 'string', name: 'heading' },
     {
       type: 'markdown',
       name: 'body'
     },
-    { type: 'string', name: 'text' },
-    { type: 'string', name: 'url' },
+    { type: 'string', name: 'text', group: 'cta' },
+    { type: 'string', name: 'url', group: 'cta' },
     { type: 'image', name: 'imageUrl' },
     { type: 'string', name: 'imageAlt' },
     {

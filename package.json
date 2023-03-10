@@ -11,7 +11,7 @@
     "lint": "next lint",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "stackbit": "stackbit dev"
+    "stackbit": "stackbit dev --cloudinary-cloud-name rangle --cloudinary-api-key 416873948759616 --open"
   },
   "dependencies": {
     "front-matter": "^4.0.2",
