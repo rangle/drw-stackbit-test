@@ -43,4 +43,5 @@ sections:
     ctaSecondary: false
     imageUrl: >-
       https://res.cloudinary.com/rangle/image/fetch/v1675704291/https://rangleio.ghost.io/content/images/2023/02/multifactor_sq.jpg
+    imageOnRight: false
 ---

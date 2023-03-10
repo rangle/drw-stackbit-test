@@ -14,7 +14,7 @@ module.exports = {
     { type: 'string', name: 'imageAlt' },
     {
       type: 'boolean',
-      name: 'image_on_right',
+      name: 'imageOnRight',
       label: 'Display image on right',
       default: false
     },
