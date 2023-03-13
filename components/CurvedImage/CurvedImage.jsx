@@ -4,14 +4,13 @@ import Markdown from 'markdown-to-jsx'
 
 export const CurvedImage = ({
   body,
-  text,
-  url,
+  cta,
+  ctaSecondary,
   heading,
   imageAlt,
   imageOnRight,
   imageUrl,
   isDark,
-  ctaSecondary = false,
   ...props
 }) => {
   return (
@@ -54,17 +53,22 @@ export const CurvedImage = ({
                 <Markdown data-sb-field-path='.body'>{body}</Markdown>
               </div>
             )}
-            {url && (
+            {cta && cta.isEnabled && (
               <div className='pt-10'>
                 <Cta
-                  url={url}
-                  text={text}
-                  isSecondary={ctaSecondary}
-                  hover={
-                    ctaSecondary && isDark
-                      ? 'hover:text-navy-50'
-                      : 'hover:text-navy-900'
-                  }
+                  url={cta.url}
+                  text={cta.text}
+                  isSecondary={cta.useSecondaryStyles}
+                />
+              </div>
+            )}
+            {ctaSecondary && ctaSecondary.isEnabled && (
+              <div className='mt-10'>
+                <Cta
+                  url={ctaSecondary.url}
+                  text={ctaSecondary.text}
+                  isSecondary={ctaSecondary.useSecondaryStyles}
+                  hover={isDark ? 'hover:text-navy-50' : 'hover:text-navy-900'}
                 />
               </div>
             )}

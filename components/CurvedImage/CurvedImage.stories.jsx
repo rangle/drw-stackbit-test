@@ -16,10 +16,19 @@ Primary.args = {
   imageUrl:
     'https://res.cloudinary.com/drw/image/upload/c_fill,g_face,q_auto,f_auto,w_350,h_350/v1638387596/comm-drw/uploads/pexels-jess-loiterton-4601063_w72cvy.jpg',
   imageAlt: 'Ocean meets the shore',
-  url: '/work-at-drw/who-we-are/social-responsibility/',
-  text: 'Learn about CSR at DRW',
-  ctaSecondary: true,
-  imageOnRight: true
+  imageOnRight: true,
+  cta: {
+    url: '/work-at-drw/who-we-are/social-responsibility/',
+    text: 'Learn about CSR at DRW',
+    useSecondaryStyles: false,
+    isEnabled: true
+  },
+  ctaSecondary: {
+    url: '/work-at-drw/who-we-are/social-responsibility/',
+    text: 'Secondary CTA',
+    useSecondaryStyles: true,
+    isEnabled: true
+  }
 }
 
 export const Dark = Template.bind({})
@@ -35,6 +44,10 @@ Dark.args = {
   imageUrl:
     'https://res.cloudinary.com/drw/image/upload/c_fill,g_face,q_auto,f_auto,w_350,h_350/v1638387596/comm-drw/uploads/pexels-jess-loiterton-4601063_w72cvy.jpg',
   imageAlt: 'Ocean meets the shore',
-  url: '/work-at-drw/who-we-are/social-responsibility/',
-  text: 'Learn about CSR at DRW'
+  cta: {
+    url: '/work-at-drw/who-we-are/social-responsibility/',
+    text: 'Learn about CSR at DRW',
+    useSecondaryStyles: false,
+    isEnabled: true
+  }
 }

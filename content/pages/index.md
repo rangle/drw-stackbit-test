@@ -35,13 +35,20 @@ sections:
       This reflects our long-standing commitment to solve emerging global issues
       and create opportunities in the communities where we live and work. We
       seek opportunities to use our resources to drive positive change.
-    text: Learn about CSR at DRW
-    url: /work-at-drw/who-we-are/social-responsibility/
     imageAlt: Ocean meets the shore
     image_on_right: false
     isDark: true
-    ctaSecondary: false
+    ctaSecondary:
+      isEnabled: true
+      text: Secondary CTA
+      url: /internal
+      useSecondaryStyles: true
     imageUrl: >-
       https://res.cloudinary.com/rangle/image/fetch/v1675704291/https://rangleio.ghost.io/content/images/2023/02/multifactor_sq.jpg
     imageOnRight: false
+    cta:
+      text: Test CTA
+      url: /url-goes-here
+      ctaSecondary: false
+      isEnabled: true
 ---

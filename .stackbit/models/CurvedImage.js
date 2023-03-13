@@ -8,8 +8,6 @@ module.exports = {
       type: 'markdown',
       name: 'body'
     },
-    { type: 'string', name: 'text', group: 'cta' },
-    { type: 'string', name: 'url', group: 'cta' },
     { type: 'image', name: 'imageUrl' },
     { type: 'string', name: 'imageAlt' },
     {
@@ -20,10 +18,54 @@ module.exports = {
     },
     { type: 'boolean', name: 'isDark', label: 'Dark mode', default: false },
     {
-      type: 'boolean',
+      name: 'cta',
+      type: 'object',
+      label: 'CTA',
+      fields: [
+        {
+          name: 'isEnabled',
+          type: 'boolean'
+        },
+        {
+          name: 'text',
+          type: 'string'
+        },
+        {
+          name: 'url',
+          type: 'string'
+        },
+        {
+          name: 'useSecondaryStyles',
+          type: 'boolean',
+          label: 'Use secondary CTA styles',
+          const: false
+        }
+      ]
+    },
+    {
       name: 'ctaSecondary',
-      label: 'Use secondary CTA',
-      default: false
+      type: 'object',
+      label: 'Secondary CTA',
+      fields: [
+        {
+          name: 'isEnabled',
+          type: 'boolean'
+        },
+        {
+          name: 'text',
+          type: 'string'
+        },
+        {
+          name: 'url',
+          type: 'string'
+        },
+        {
+          type: 'boolean',
+          name: 'useSecondaryStyles',
+          label: 'Use secondary CTA styles',
+          const: true
+        }
+      ]
     }
   ]
 }
