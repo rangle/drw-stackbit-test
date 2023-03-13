@@ -37,7 +37,7 @@ sections:
       vel varius urna malesuada sed. Etiam ultricies sem consequat, posuere urna
       non, maximus ex. Mauris gravida diam sed augue condimentum pulvinar vel ac
       dui. Integer vel convallis justo.
-    text: sec
+    text: secondary
     url: lorem-ipsum
     imageAlt: lorem-ipsum
     imageOnRight: false
