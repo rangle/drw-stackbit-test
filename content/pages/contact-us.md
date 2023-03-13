@@ -42,5 +42,5 @@ sections:
     imageAlt: lorem-ipsum
     imageOnRight: false
     isDark: false
-    ctaSecondary: false
+    ctaSecondary: true
 ---
